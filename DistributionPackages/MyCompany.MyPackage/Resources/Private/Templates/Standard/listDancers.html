@@ -1,0 +1,31 @@
+<f:layout name="Default" />
+
+<f:section name="Title">
+    <f:translate id="list.headline" />
+</f:section>
+
+<f:section name="Content">
+    <f:link.action action="addDancer">
+        <button>{f:translate(id: 'list.add')}</button>
+    </f:link.action>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th><f:translate id="list.table.country" /></th>
+        </tr>
+        <f:for each="{dancers}" as="foo">
+            <tr>
+                <td>{foo.name}</td>
+                <td>{foo.country.name}</td>
+                <f:form action="deleteDancer" objectName="deleteDancer" object="{foo}">
+                    <td><f:form.submit name="submit" value="{f:translate(id: 'list.delete')}" /></td>
+                </f:form>
+                <td>
+                    <f:link.action action="edit" arguments="{dancer: foo}">
+                        <button>{f:translate(id: 'list.edit')}</button>
+                    </f:link.action>
+                </td>
+            </tr>
+        </f:for>
+    </table>
+</f:section>

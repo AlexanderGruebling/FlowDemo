@@ -1,0 +1,20 @@
+<f:layout name="Default" />
+
+<f:section name="Title">Index view of Standard controller</f:section>
+
+<f:section name="Content">
+    <h1>Nice Countries:</h1>
+    <p>Some data set by the controller:</p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Country</th>
+        </tr>
+        <f:for each="{countries}" as="foo">
+            <tr>
+                <td>{foo.name}</td>
+                <td>{foo.country.name}</td>
+            </tr>
+        </f:for>
+    </table>
+</f:section>

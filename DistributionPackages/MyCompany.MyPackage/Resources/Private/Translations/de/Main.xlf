@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="" product-name="MyCompany.MyPackage" source-language="de" datatype="plaintext">
+		<body>
+			<trans-unit id="list.headline" xml:space="preserve">
+                <source>Liste der Tänzer</source>
+            </trans-unit>
+            <trans-unit id="list.table.country" xml:space="preserve">
+                <source>Nationalität</source>
+            </trans-unit>
+            <trans-unit id="list.edit" xml:space="preserve">
+                <source>Bearbeiten</source>
+            </trans-unit>
+            <trans-unit id="list.add" xml:space="preserve">
+                <source>Hinzufügen</source>
+            </trans-unit>
+            <trans-unit id="list.delete" xml:space="preserve">
+                <source>Löschen</source>
+            </trans-unit>
+            <trans-unit id="edit.heading" xml:space="preserve">
+                <source>Tänzer bearbeiten</source>
+            </trans-unit>
+            <trans-unit id="add.heading" xml:space="preserve">
+                <source>Tänzer hinzufügen</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

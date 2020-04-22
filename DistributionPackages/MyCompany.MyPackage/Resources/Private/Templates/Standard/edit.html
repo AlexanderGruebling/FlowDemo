@@ -1,0 +1,17 @@
+<f:layout name="Default" />
+
+<f:section name="Title">
+    <f:translate id="edit.heading" />
+</f:section>
+
+<f:section name="Content">
+    <f:form action="updateDancer" object="{dancer}" objectName="dancer">
+
+        <label for="name">Name</label>
+        <f:form.textfield property="name" id="name"/>
+
+        <f:form.select name="countries" property="country" options="{countries}" optionLabelField="name"/>
+
+        <f:form.submit name="submit" value="{f:translate(id: 'edit.heading')}" />
+    </f:form>
+</f:section>
