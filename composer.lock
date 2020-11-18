@@ -1280,6 +1280,7 @@
                 "reflection",
                 "static"
             ],
+            "abandoned": "roave/better-reflection",
             "time": "2020-01-08T19:53:19+00:00"
         },
         {
@@ -1425,7 +1426,7 @@
             "dist": {
                 "type": "path",
                 "url": "./DistributionPackages/MyCompany.MyPackage",
-                "reference": "86b25a585a77fd7df117d814325cda7945fa8334"
+                "reference": "88758a27118c9fd38a98502a0064ee497ce57a3a"
             },
             "require": {
                 "neos/flow": "*"
@@ -1440,6 +1441,9 @@
                 "psr-4": {
                     "MyCompany\\MyPackage\\": "Classes/"
                 }
+            },
+            "transport-options": {
+                "relative": true
             }
         },
         {
@@ -3407,16 +3411,16 @@
         },
         {
             "name": "typo3fluid/fluid",
-            "version": "2.6.9",
+            "version": "2.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/Fluid.git",
-                "reference": "ba05e165bb4fd1302edf3f0280a149992e8c79be"
+                "reference": "f20db4e74cf9803c6cffca2ed2f03e1b0b89d0dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/Fluid/zipball/ba05e165bb4fd1302edf3f0280a149992e8c79be",
-                "reference": "ba05e165bb4fd1302edf3f0280a149992e8c79be",
+                "url": "https://api.github.com/repos/TYPO3/Fluid/zipball/f20db4e74cf9803c6cffca2ed2f03e1b0b89d0dc",
+                "reference": "f20db4e74cf9803c6cffca2ed2f03e1b0b89d0dc",
                 "shasum": ""
             },
             "require": {
@@ -3442,7 +3446,7 @@
                 "LGPL-3.0-or-later"
             ],
             "description": "The TYPO3 Fluid template rendering engine",
-            "time": "2020-02-03T10:46:43+00:00"
+            "time": "2020-11-16T21:38:14+00:00"
         },
         {
             "name": "zendframework/zend-code",
@@ -4358,6 +4362,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
@@ -5156,5 +5161,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
